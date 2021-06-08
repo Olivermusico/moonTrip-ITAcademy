@@ -64,7 +64,8 @@ background-color: navy;
 
 .nav{
   display: flex;
-    text-align: center;
+  justify-content: center;
+  text-align: center;
   
   }
 
