@@ -1,5 +1,6 @@
 body{
-  margin: 20px;
+  margin: 10px;
+  background-color: mistyrose;
 }
 
 
@@ -40,4 +41,36 @@ body{
   to {
     transform: rotate(360deg);
   }
+}
+
+.title{
+     font-family: 'Roboto',
+     sans-serif;
+     color: azure;
+}
+.author{
+  font-family: 'Montserrat',
+  sans-serif;
+  color: aliceblue;
+}
+
+.header{
+font-family: 'Shadows Into Light',
+cursive;
+font-size: 6em;
+color: oldlace;
+background-color: navy;
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+  }
+
+.content{
+  display: grid;
+  justify-content: center;
+  background-color: olive;
 }
